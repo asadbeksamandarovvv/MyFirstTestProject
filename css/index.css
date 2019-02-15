@@ -20,4 +20,10 @@ BlinkMacSystemFont,
 "Helvetica Neue", Arial, sans-serif,
 // Emoji fonts
 "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
 }
+// With variable
+   .alpha { color: $purple; }
+
+// From the Sass map with our `color()` function
+                                        .beta { color: color("purple"); }
